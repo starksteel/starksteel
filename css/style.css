@@ -15,6 +15,11 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+#kırmızı{
+  color: red !important;
+}
+
+
 a {
   color: #50d8af;
   transition: 0.5s;
@@ -203,7 +208,7 @@ h6 {
 
 #intro .intro-content h2 span {
   color: #50d8af;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 #intro .intro-content .btn-get-started,
@@ -1018,6 +1023,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+
+#transparent{
+  display: none
+}
+
 
 #footer {
   background: #f2f5f8;
